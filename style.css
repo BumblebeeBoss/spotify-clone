@@ -430,6 +430,7 @@ vol-control-right{
 @media screen and (max-width:768){
     .container{
         flex-wrap: wrap;
+        flex-direction: column;
     }
     /* .navbar{
        display:flex;
@@ -437,5 +438,8 @@ vol-control-right{
     } */
     .library{
         width:50vw;
+    }
+    .player{
+        flex-wrap: wrap;
     }
 }
